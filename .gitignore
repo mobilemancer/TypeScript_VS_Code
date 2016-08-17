@@ -1,7 +1,6 @@
-bin/Debug/dnx451/TS_Code.dll
-bin/Debug/dnx451/TS_Code.pdb
-bin/Debug/dnxcore50/TS_Code.dll
-bin/Debug/dnxcore50/TS_Code.pdb
-bin/Debug/dnxcore50/TS_Code.xml
-bin/Debug/dnx451/TS_Code.xml
+bin/*
+obj/*
+node_modules/*
+
+wwwroot/scripts/test.js
 project.lock.json

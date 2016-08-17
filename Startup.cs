@@ -1,5 +1,5 @@
-using Microsoft.AspNet.Builder;
-using Microsoft.Framework.DependencyInjection;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace TS_Code
 {
@@ -12,6 +12,7 @@ namespace TS_Code
 
         public void Configure(IApplicationBuilder app)
         {
+            app.UseDefaultFiles();
             app.UseStaticFiles();
         }
     }
